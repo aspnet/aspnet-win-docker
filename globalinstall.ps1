@@ -1,4 +1,4 @@
-$tempPath = Join-Path $env:TEMP "dnvminstall"
+$tempPath = $pwd
 $dnvmPs1Path = Join-Path $tempPath "dnvm.ps1"
 $dnvmCmdPath = Join-Path $tempPath "dnvm.cmd"
 
