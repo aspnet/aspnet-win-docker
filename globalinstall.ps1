@@ -1,4 +1,4 @@
-$tempPath = $pwd
+$tempPath = "c:\ProgramData\Microsoft DNX\bin"
 $dnvmPs1Path = Join-Path $tempPath "dnvm.ps1"
 $dnvmCmdPath = Join-Path $tempPath "dnvm.cmd"
 
