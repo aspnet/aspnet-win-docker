@@ -12,5 +12,5 @@ Write-Host "Downloading DNVM.cmd to $dnvmCmdPath"
 $webClient.DownloadFile('https://raw.githubusercontent.com/aspnet/Home/dev/dnvm.cmd', $dnvmCmdPath)
 
 #$env:PATH = "$env:PATH;C:\ProgramData\Microsoft DNX\bin"
-$oldPath = 	[Environment]::GetEnvironmentVariable("PATH", "MACHINE")
-[Environment]::SetEnvironmentVariable("PATH", "$oldPath;C:\ProgramData\Microsoft DNX\bin", "MACHINE")
+#$oldPath = 	[Environment]::GetEnvironmentVariable("PATH", "MACHINE")
+#[Environment]::SetEnvironmentVariable("PATH", "$oldPath;C:\ProgramData\Microsoft DNX\bin", "MACHINE")
